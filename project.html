@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sundial Residences — Dwaar</title>
+<meta name="description" content="Sundial Residences, Gurugram. A 860,000 sq ft residential landmark designed and built by one team — case study.">
+<meta name="theme-color" content="#F7F3EA">
+<meta property="og:title" content="Sundial Residences — Dwaar">
+<meta property="og:description" content="Foundation to handover, from one team. The Sundial Residences case study.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="assets/media/img/house-dusk.webp">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter+Tight:wght@300..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/sections.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav nav--light" data-nav>
+  <div class="nav__inner">
+    <a class="brand" href="index.html" aria-label="Dwaar — home">
+      <svg class="brand__mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M3.2 21V10.4C3.2 5.5 7.2 1.5 12 1.5s8.8 4 8.8 8.9V21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M8.6 21v-7.1c0-2 1.5-3.6 3.4-3.6s3.4 1.6 3.4 3.6V21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <span class="brand__word">Dwaar</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="work.html">Work</a>
+      <a href="practice.html">Practice</a>
+      <a href="project.html">Sundial</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <a class="btn btn--ink btn--sm nav__cta" href="contact.html">
+      Start a project
+      <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+
+    <button class="nav__toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+  </div>
+</header>
+
+<div class="menu" id="menu" data-menu>
+  <nav class="menu__list" aria-label="Mobile">
+    <a href="index.html"><i>01</i>Home</a>
+    <a href="work.html"><i>02</i>Work</a>
+    <a href="practice.html"><i>03</i>Practice</a>
+    <a href="project.html"><i>04</i>Sundial Residences</a>
+    <a href="contact.html"><i>05</i>Contact</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="mailto:hello@dwaar.build">hello@dwaar.build</a>
+    <a href="tel:+911244000000">+91 124 400 0000</a>
+    <span>Golf Course Road, Gurugram 122002</span>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- displacement filter used by the plate below -->
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+    <filter id="dwaar-displace" x="-6%" y="-6%" width="112%" height="112%">
+      <feTurbulence id="dwaar-displace-noise" type="fractalNoise" baseFrequency="0.004"
+                    numOctaves="2" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0"
+                         xChannelSelector="R" yChannelSelector="G" id="dwaar-displace-map"/>
+    </filter>
+  </svg>
+
+
+  <!-- ─── Project hero: zoom-through + parallax ────────────────── -->
+  <section class="proj__hero">
+    <div class="proj__hero-media" data-parallax="12">
+      <img src="assets/media/img/house-dusk.webp" alt="Sundial Residences at dusk, warm light in the terraced apartments" data-zoom-hero width="452" height="678">
+    </div>
+    <div class="proj__hero-scrim" aria-hidden="true"></div>
+
+    <div class="wrap wrap--wide proj__hero-inner">
+      <p class="eyebrow eyebrow--light" data-reveal="fade">
+        <span class="dot" aria-hidden="true"></span>Case study · Residential
+      </p>
+      <h1 class="display display--xl" data-split="lines">Sundial<br>Residences</h1>
+      <p class="lede" style="color:rgba(247,243,234,.84)" data-reveal="up">
+        A 180-home residential landmark in Gurugram, oriented to catch morning light in
+        every kitchen and shade every balcony by four o'clock.
+      </p>
+      <div class="proj__credit" data-reveal="fade">
+        <span>Gurugram, Haryana</span>
+        <span>2022 — 2026</span>
+        <span>860,000 sq ft</span>
+        <span>Architecture · Structure · MEP · Build</span>
+      </div>
+    </div>
+
+    <div class="cue" aria-hidden="true">
+      <span>Scroll</span>
+      <svg viewBox="0 0 12 22" fill="none"><path d="M6 1v18M1.6 14.6 6 19l4.4-4.4" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+  </section>
+
+  <!-- ─── Fact bar ─────────────────────────────────────────────── -->
+  <div class="wrap wrap--wide">
+    <dl class="proj__facts">
+      <div class="proj__fact" data-reveal="up"><dt>Client</dt><dd>Private developer</dd></div>
+      <div class="proj__fact" data-reveal="up"><dt>Scope</dt><dd>Design–build</dd></div>
+      <div class="proj__fact" data-reveal="up"><dt>Homes</dt><dd>180 apartments</dd></div>
+      <div class="proj__fact" data-reveal="up"><dt>Handover</dt><dd>March 2026</dd></div>
+      <div class="proj__fact" data-reveal="up"><dt>Slippage</dt><dd>Zero — 41 months</dd></div>
+    </dl>
+  </div>
+
+  <!-- ─── Intro ────────────────────────────────────────────────── -->
+  <div class="wrap wrap--wide">
+    <div class="proj__intro">
+      <h2 data-reveal="up">The brief was a number. The answer was a courtyard.</h2>
+      <div class="body">
+        <p data-reveal="up">
+          The developer came to us with a floor-area target and a plot on the wrong side of
+          a highway — a parcel with noise on two edges and hard western sun on the third.
+          Most proposals we saw simply rotated the tower and called it orientation.
+        </p>
+        <p data-reveal="up">
+          We spent the first five weeks on the site, not the drawing board. Noise readings
+          morning and evening. Shadow studies across twelve months. A soil report that
+          changed the foundation strategy entirely — and saved eleven weeks on the programme.
+        </p>
+        <p data-reveal="up">
+          The result is a single stepped volume around a shaded courtyard, with the noisiest
+          elevation given over to circulation rather than bedrooms, and every living room
+          opening east.
+        </p>
+        <div class="tags" data-reveal="up">
+          <span class="tag">Step-back massing</span>
+          <span class="tag">Raft foundation</span>
+          <span class="tag">Cross-ventilated cores</span>
+          <span class="tag">Waste-water reuse</span>
+          <span class="tag">IGBC Gold</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Plates (sticky captions) ─────────────────────────────── -->
+  <section class="plates" aria-label="Project images">
+    <div class="wrap wrap--wide">
+
+      <article class="plate">
+        <div class="plate__cap" data-reveal="up">
+          <span class="idx">01 — Massing</span>
+          <h3>One volume, stepped to the sun.</h3>
+          <p>The tower steps back on the south face so every terrace is shaded by the slab above it between eleven and four.</p>
+        </div>
+        <div class="plate__media" data-mask="up">
+          <img src="assets/media/img/tower-facade.webp" alt="Stepped apartment facade with deep shading slabs" loading="lazy" decoding="async" width="451" height="679">
+        </div>
+      </article>
+
+      <article class="plate">
+        <div class="plate__cap" data-reveal="up">
+          <span class="idx">02 — Courtyard</span>
+          <h3>The quiet side does the work.</h3>
+          <p>A 40-metre planted court sits between the two wings, acting as the acoustic and social buffer for both.</p>
+        </div>
+        <div class="plate__media" data-mask="up">
+          <img src="assets/media/img/resort-courtyard.webp" alt="Planted courtyard with reflecting pool between two residential wings" loading="lazy" decoding="async" width="519" height="390">
+        </div>
+      </article>
+
+      <article class="plate plate--wide">
+        <div class="plate__cap" data-reveal="up">
+          <span class="idx">03 — Structure</span>
+          <h3>Eighteen weeks of formwork, drawn once.</h3>
+          <p>Raft foundation, flat slabs and a repeating column grid let our own crews cycle formwork on a five-day floor.</p>
+        </div>
+        <div class="plate__media" data-mask="left">
+          <img src="assets/media/img/workers-crane.webp" alt="Site crew working at height beside a tower crane at sunrise" loading="lazy" decoding="async" width="612" height="408">
+        </div>
+      </article>
+
+      <figure class="displace-wrap" data-displace style="margin:0 0 clamp(3rem,6vw,5rem);overflow:hidden">
+        <img src="assets/media/img/glass-motion.webp" alt="Glass facade rippling in reflection" loading="lazy" decoding="async" style="width:100%;height:auto" width="600" height="900">
+        <figcaption class="meta" style="margin-top:.8rem">Facade study — the only render we ever made.</figcaption>
+      </figure>
+
+      <div class="duo">
+        <figure data-mask="up">
+          <img src="assets/media/img/tower-lowangle.webp" alt="Tower rising against the sky seen from the base" loading="lazy" decoding="async" width="491" height="623">
+          <figcaption>Frame topped out, week 44.</figcaption>
+        </figure>
+        <figure data-mask="up">
+          <img src="assets/media/img/interior-lounge.webp" alt="Double-height lobby with a timber ceiling" loading="lazy" decoding="async" width="640" height="479">
+          <figcaption>Lobby — as-built, week 61.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SVG stroke quote ─────────────────────────────────────── -->
+  <section class="section section--tight">
+    <div class="wrap wrap--narrow" style="text-align:center">
+      <p class="meta" data-reveal="fade" style="margin-bottom:1.6rem">04 — The result</p>
+      <p class="statement__text" style="margin-inline:auto;max-width:20ch" data-split="words">
+        Handed over on the day we said, with a snag list of <em>eleven</em> items.
+      </p>
+
+      <svg data-stroke viewBox="0 0 620 140" fill="none" aria-hidden="true"
+           style="width:min(100%,620px);height:auto;margin:3rem auto 0;color:var(--accent)">
+        <path d="M10 120 H610" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M10 120 V60 M610 120 V60" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M10 60 Q160 10 310 60 T610 60" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cx="310" cy="60" r="7" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M310 53 V26 M299 37 H321" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      </svg>
+      <p class="meta" style="margin-top:1.2rem">Sundial · zero slippage · 41 months</p>
+    </div>
+  </section>
+
+  <!-- ─── Scroll-scrubbed video ────────────────────────────────── -->
+  <section class="scrubvid" data-scrubvideo aria-label="Construction timelapse">
+    <div class="scrubvid__sticky" data-scrub-sticky>
+      <div class="scrubvid__frame">
+        <video src="assets/media/video/scrub.mp4" muted playsinline preload="auto"
+               poster="assets/media/video/scrub-poster.webp"
+               aria-label="Tower rising, played forward and back by scroll position"></video>
+      </div>
+      <div class="scrubvid__aside">
+        <p class="meta">Site record · 2024</p>
+        <h3>The last year of a<br>four-year climb.</h3>
+        <p>One camera, fixed at the site gate, recording the same corner of the tower every Friday at seven in the morning.</p>
+        <div class="scrubvid__label">
+          <span>Scroll to scrub</span>
+          <b>Foundation to frame</b>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Numbers ──────────────────────────────────────────────── -->
+  <section class="strip" aria-label="Project outcomes">
+    <div class="wrap strip__inner" data-stagger>
+      <div class="strip__item" data-reveal="up"><b data-count="41">41</b><span>Months on site</span></div>
+      <div class="strip__item" data-reveal="up"><b data-count="11">11</b><span>Handover snags</span></div>
+      <div class="strip__item" data-reveal="up"><b><span data-count="96">96</span><span>%</span></b><span>Waste diverted</span></div>
+      <div class="strip__item" data-reveal="up"><b data-count="4.2">4.2</b><span>Years of care owed</span></div>
+    </div>
+  </section>
+
+  <!-- ─── Zoom-through close ───────────────────────────────────── -->
+  <section class="zoomout" data-zoomout aria-label="Handover">
+    <div class="zoomout__sticky">
+      <div class="zoomout__img" data-zoomout-media>
+        <img src="assets/media/img/house-dusk.webp" alt="Sundial Residences lit at dusk" loading="lazy" decoding="async" width="452" height="678">
+      </div>
+      <div class="zoomout__copy" data-zoomout-copy>
+        <p class="eyebrow eyebrow--light" style="justify-content:center;margin-bottom:1.2rem">
+          <span class="dot" aria-hidden="true"></span>Handed over · March 2026
+        </p>
+        <h2 class="display">Foundation to handover,<br><em>from one team.</em></h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Next project ─────────────────────────────────────────── -->
+  <a class="nextproj" href="work.html">
+    <div class="nextproj__bg" aria-hidden="true">
+      <img src="assets/media/img/glass-facade.webp" alt="" loading="lazy" width="600" height="900">
+    </div>
+    <div class="nextproj__scrim" aria-hidden="true"></div>
+    <div class="nextproj__inner wrap">
+      <p class="eyebrow eyebrow--light"><span class="dot" aria-hidden="true"></span>Next project</p>
+      <h2 class="display display--lg">The Meridian</h2>
+      <span class="link-arrow link-arrow--light">
+        View all work
+        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </div>
+  </a>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap wrap--wide">
+    <div class="foot__top">
+      <div class="foot__brand">
+        <a class="brand brand--lg" href="index.html" aria-label="Dwaar — home">
+          <svg class="brand__mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M3.2 21V10.4C3.2 5.5 7.2 1.5 12 1.5s8.8 4 8.8 8.9V21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M8.6 21v-7.1c0-2 1.5-3.6 3.4-3.6s3.4 1.6 3.4 3.6V21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <span class="brand__word">Dwaar</span>
+        </a>
+        <p class="foot__gloss"><span>dwaar</span> /dwɑːr/ — noun. a doorway; a gateway.</p>
+      </div>
+      <div class="foot__cta">
+        <h3>Tell us about<br><em>the site.</em></h3>
+        <a class="btn btn--paper" href="contact.html">
+          Start a project
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+    <nav class="foot__cols" aria-label="Footer">
+      <div>
+        <h4>Studio</h4>
+        <a href="work.html">Work</a>
+        <a href="practice.html">Practice</a>
+        <a href="project.html">Sundial Residences</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:hello@dwaar.build">hello@dwaar.build</a>
+        <a href="tel:+911244000000">+91 124 400 0000</a>
+        <p>Unit 402, Lattice House,<br>Golf Course Road,<br>Gurugram 122002</p>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <a href="https://instagram.com" rel="noopener noreferrer" target="_blank">Instagram</a>
+        <a href="https://linkedin.com" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+        <a href="work.html">Press kit</a>
+        <p>RERA registered<br>Haryana 88 of 2017</p>
+      </div>
+    </nav>
+    <div class="foot__bottom">
+      <p>© <span data-year>2026</span> Dwaar Builders Pvt. Ltd.</p>
+      <p>Gurugram · Pune · Jaipur</p>
+      <p>Built from the ground up.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/vendor/gsap.min.js" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/vendor/SplitText.min.js" defer></script>
+<script src="assets/vendor/lenis.min.js" defer></script>
+<script src="assets/js/motion.js" defer></script>
+</body>
+</html>
